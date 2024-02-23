@@ -1,0 +1,22 @@
+# PB&J algorithm
+
+if not ingredientsExist:
+    buy ingredients
+
+get necessary tools
+if wantsToast:
+    put bread in toaster
+
+if wantsPB:
+    apply PB
+    while not enough PB:
+        apply more
+
+if wantsJelly:
+    apply Jelly
+    whlie not enough Jelly:
+        apply more
+
+assembly sandwich
+
+eat()
