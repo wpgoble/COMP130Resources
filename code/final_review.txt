@@ -1,0 +1,99 @@
+1. For vs While Loop
+    For loop is used when we want to iterate a fixed number of times.
+    A while loop is used when we have an arbitrary number of iterations
+    to make.
+
+2. with import math, you need to use dot notation to specify the math
+    functions we want to use, with from math import *, we can just
+    use the function name
+
+3. No. When using sequentail if states, each if statement will be checked,
+    but with if-elif-else blocks, the conditions will only be checked until
+    one returns true.
+
+6. Dictionaries use key-value pairs,
+    Both are methods for storing large amounts of info. Lists use
+    integers as the "key" in the key-value pair, while with a dict
+    we can set the key to be whatever we want (within reason)
+
+7. For code block A: we use the length of foo to iterate over the
+    index of the list
+    For code block B: we just access the elements directly
+
+8.  To increase shareholder value
+
+10.
+if "J" in month:
+    if len(month) <= 4:
+        print("summer")
+    else:
+        print("winter")
+else:
+    print("no j")
+
+10.b:
+if today in ["Saturday", "Sunday"]:
+    print("sleep in")
+else:
+    print("go to class")
+
+11.
+sum = 0
+ctr = 1
+while ctr < 10:
+    sum += ctr
+    ctr -= 1
+
+x = 1
+sum = 0
+while x < 10 and x >= 1:
+    sum += x
+    x -= 1
+
+13.
+def my_power(x, y):
+    if y == 0:
+        return 1
+    else:
+        return x * my_power(x, y-1)
+
+
+14.
+def create_dictionary(my_list):
+    resturants = {}
+    for place in my_list:
+        if place not in resturants:
+            resturants[place] = 1
+        else:
+            value = resturants[place]
+            resturants[place] = value + 1
+    return resturants
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
